@@ -1,7 +1,7 @@
 require('dotenv').config()
 
 const config = {
-    HOST: process.env.HOST || '124.123.68.117',
+    HOST: process.env.HOST || 'http://localhost/',
     PORT: process.env.PORT || 4343,
     APP_DIR: process.cwd(),
     APP_SESSION_SECRET: process.env.APP_SESSION_SECRET || null,
